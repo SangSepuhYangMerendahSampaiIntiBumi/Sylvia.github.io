@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    margin-left: -10;
+    padding: 0;
+    background-image: url(bg7.jpg.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+/*bagian header*/
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: rgb(250, 249, 249);
+    width: 100%;
+    top:0;
+    padding-left: 20px;
+    z-index: 999;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    background-color: black;
+    border-radius: 40px;
+    height: 45px;
+    width: 185px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.fristname {
+    color:gold;
+    font-family:'montserrat bold ';
+    padding-right: 0,05rem;
+}
+.lastname {
+    color:white;
+    font-family: sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 180px;
+
+}
+
+nav li {
+    display: flex;
+    margin: 0px 20px;
+    text-align: right;
+}
+nav a {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;      
+
+}
+nav a :hover {
+    color: white;
+    font-size: 20px;
+
+}
+
+/*dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-item {
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 280px;
+}
+
+.dropdown-isi {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-isi a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-isi a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-isi {
+    display: block;
+}
+
+.dropdown:hover .dropdown-item {
+    color: blue;
+}
+
+/*tombol login*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-right: 1opx;
+ }
+ .button-container {
+     margin-right: 50px;
+ }
+/*bagian dalam tabel*/
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(251, 168, 0);
+}
+
+table,th,td{
+    border: 1px solid #ddd;
+
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+ }
+
+tr:first-child {
+    background-color: #333;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+th {
+    font-weight: bold;
+
+}
+
+/*button tambah data*/
+.databaru a{
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color:blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 1055px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-right: 1opx;
+ }
+.button-container {
+     margin-right: 50px;
+ }
+
+
+
+
+

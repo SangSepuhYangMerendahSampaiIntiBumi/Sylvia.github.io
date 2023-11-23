@@ -1,0 +1,293 @@
+/*bagian seluruh web*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(181, 115, 9);
+    
+}
+/*bagian header*/
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: rgb(250, 249, 249);
+    width: 100%;
+    top:0;
+    padding-left: 20px;
+    z-index: 999;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    background-color: black;
+    border-radius: 40px;
+    height: 45px;
+    width: 185px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.fristname {
+    color:gold;
+    font-family:'montserrat bold ';
+    padding-right: 0,05rem;
+}
+.lastname {
+    color:white;
+    font-family: sans-serif;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 180px;
+
+}
+
+nav li {
+    display: flex;
+    margin: 0px 20px;
+    text-align: right;
+}
+nav a {
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;      
+
+}
+nav a :hover {
+    color: white;
+    font-size: 20px;
+
+}
+
+/*dropdown*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-item {
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 280px;
+}
+
+.dropdown-isi {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-isi a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-isi a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-isi {
+    display: block;
+}
+
+.dropdown:hover .dropdown-item {
+    color: blue;
+}
+
+/*tombol login*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-right: 1opx;
+ }
+ .button-container {
+     margin-right: 50px;
+ }
+
+/*h1 selamat datang*/
+h1{
+    color: rgb(255, 221, 0);
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+}
+/*bagian home di webnya*/
+.image {
+    background-image: url(bg7.jpg.jpg);
+    background-position: center;
+    background-size: 100%;
+    position:relative ;
+    align-items: center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.image p {
+    color: white;
+    margin-top: 20px;
+    position: relative;
+    top: -50;
+}
+/*tombol boking*/
+.boking a{
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color:blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 125px;
+}
+
+/*tulisan bagian web*/
+h2 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+.contoh h2{
+    color: white;
+    margin-top: 600px;
+}
+
+/*bagian tentrang kami*/
+.items{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 10px;
+}
+#about {
+    margin-left: 50px;
+    border-radius: 0%;
+    float: right;
+}
+#about p{
+    color: white;
+    text-align: justify;
+}
+
+/*bagian foto kamar dan galery*/
+.home1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+#room-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.room-item {
+    background-color:rgb(215, 201, 201);
+    margin: 0 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    width: 500px;
+    
+}
+img {
+    max-width: 100%;
+    border-radius: 50px;
+
+}
+
+.room-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    align-items: left;
+}
+h3 {
+    color: black;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    margin-top:-100px;
+}
+
+/*bagiaan hubungi kami*/
+h4{
+    color: white;
+}
+.row {
+    display: flex;
+    margin-top: 2rem;
+    background-color: gray;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+h4 {
+    text-align: center;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin-left: 40px;
+}
+.contatc a{
+    margin-left:150px;
+    font-size: 20px;
+}
+.contatc p{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*akhir*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0 1px;
+    margin-top: 0px;
+
+}
+
